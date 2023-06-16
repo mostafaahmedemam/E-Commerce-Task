@@ -18,7 +18,7 @@ This Project consist of 3 Main Parts (Frontend "React", Backend"C# .NET", Databa
 ### Frontend:
 1- You need to change directory to be inside Publish/frontend directory.\
 2- You need to run "npm install -g serve" on cmd.\
-3- Then run "serve -s build".
+3- Then run "serve -s build".\
 Now Fronend process exposed on port 3000.\
 
 ### Backend:
