@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  e.commerce:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5005:80"
+  productsdb:
+    container_name: productsdb
+    environment:
+        SA_PASSWORD: "SwN12345678"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1433:1433"
+  client.e.commerce:
+    container_name: client
+    restart: always
+    ports:
+        - "3000:3000"
+
+   

@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  e.commerce:
+    image: ${DOCKER_REGISTRY-}ecommerce
+    build:
+      context: .
+      dockerfile: E.Commerce/Dockerfile
+  productsdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+  client.e.commerce:
+    build:
+      context: .
+      dockerfile: client-e-commerce/Dockerfile
