@@ -4,7 +4,7 @@ Contains source code of backend "Web api application" and frontend "react applic
 ## Publish Directory
 Contains publish files of backend "Web api application" and frontend "react application" 
 ## Documentation Directory
-Contains all documentation for ERD and deplyment steps
+Contains all documentation for ERD and deployment  steps
 
 # How To Run Application ? 
 This Project consist of 3 Main Parts (Frontend "React", Backend"C# .NET", Database "SQLserver")
@@ -19,10 +19,10 @@ This Project consist of 3 Main Parts (Frontend "React", Backend"C# .NET", Databa
 1- You need to change directory to be inside Publish/frontend directory.\
 2- You need to run "npm install -g serve" on cmd.\
 3- Then run "serve -s build".\
-Now Fronend process exposed on port 3000.\
+Now Fronend process exposed on port 3000.
 
 ### Backend:
 1- open publish/Backend/E.Commerce.WebApi directory.\
-2- or run E.Commerce application.\
+2- or run E.Commerce application.
 
 
