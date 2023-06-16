@@ -11,7 +11,7 @@ This Project consist of 3 Main Parts (Frontend "React", Backend"C# .NET", Databa
 
 ## Using Docker
 1- Change directory to Code/Backend directory and open cmd.\
-2- Run docker command "docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d"  to created and start containers with sql server.\
+2- Run docker command "docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d"  to created and start containers with sql server.
 
 ## Run Locally:
 
